@@ -53,4 +53,13 @@
 		});
 
 		$("h1:not(h1:eq(5))").fadeOut(3000);
+
+		$("h3").hide();
+		$("#show").click(function(){
+			$("h3:contains('Rifat')").fadeIn(2000);
+		});
+
+		$("a[title='TW']").fadeOut(3000);
+
+		$(":input:password").addClass("fn");
 	});

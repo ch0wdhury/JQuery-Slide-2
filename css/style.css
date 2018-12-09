@@ -44,3 +44,7 @@
 	color: oldlace;
 	padding: 10px;
 }
+
+.fn {
+	border: 2px solid red;
+}
